@@ -91,7 +91,7 @@ void loop()
     Serial.print("\t"); 		  // Print tab space
 
     // Print the cumulative total of litres flowed since starting
-    Serial.print("Количество жидкости: ");
+    Serial.print("Количество жидкости в миллилитрах и литрах: ");
     Serial.print(totalMilliLitres);
     Serial.print(" мл");
     Serial.print("\t"); 		  // Print tab space
