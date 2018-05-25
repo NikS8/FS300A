@@ -98,7 +98,6 @@ void loop()
 	Serial.print(totalMilliLitres/1000);
 	Serial.println(" Л");
 
-
     // Reset the pulse counter so we can start incrementing again
     pulseCount = 0;
 
